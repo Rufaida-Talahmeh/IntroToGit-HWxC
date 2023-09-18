@@ -7,3 +7,14 @@ for num in range(1, 11):
 # Print the result
 print("The sum of numbers from 1 to 10 is:", total_sum)
 
+# Initialize variables
+total_sum = 0
+current_num = 1
+
+# Use a while loop to iterate through numbers from 1 to 10
+while current_num <= 10:
+    total_sum += current_num  # Add the current number to the total sum
+    current_num += 1  # Increment the current number
+
+# Print the result
+print("The sum of numbers from 1 to 10 using a while loop is:", total_sum)
