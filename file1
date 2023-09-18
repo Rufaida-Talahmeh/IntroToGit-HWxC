@@ -18,3 +18,10 @@ while current_num <= 10:
 
 # Print the result
 print("The sum of numbers from 1 to 10 using a while loop is:", total_sum)
+
+# Ask the user to enter their name
+name = input("Please enter your name: ")
+
+# Ask the user to enter their age
+age = input("Please enter your age: ")
+
