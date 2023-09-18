@@ -25,3 +25,6 @@ name = input("Please enter your name: ")
 # Ask the user to enter their age
 age = input("Please enter your age: ")
 
+
+print(f"Hello, {name}! You are {age} years old.")
+
